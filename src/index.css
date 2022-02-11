@@ -7,3 +7,17 @@
   background-image: url(img/banner.jpg);
   background-size: cover;
 }
+.banner2 {
+  background-image: url(img/b2.jpg);
+  background-size: cover;
+}
+
+.banner3 {
+  background-image: url(img/b3.jpg);
+  background-size: cover;
+}
+
+.banner4 {
+  background-image: url(img/b4.jpg);
+  background-size: cover;
+}
