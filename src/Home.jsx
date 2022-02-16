@@ -20,7 +20,7 @@ export default function Home() {
                 </a>
                 <div className="flex items-center">
                     <svg className="w-10 h-10 rounded-full bg-cyan-500 p-2 text-white mx-4 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-                    <img className="w-7 h-7" src="img/whatsapp.png" alt="" />
+                    <img className="w-10 h-10" src="img/whatsapp.png" alt="" />
                     <svg className="w-10 h-10 rounded-full bg-cyan-500 p-2 text-white mx-4 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
                 </div>
             </nav>
@@ -226,7 +226,7 @@ export default function Home() {
                         </form>
                     </div>
                 </div>
-                <div className="mt-10 font-thin hidden md:grid border-t-white max-w-5xl mx-auto bg-cyan-600  grid-cols-3 text-white">
+                <div className="md:my-10 font-thin hidden md:grid border-t-white max-w-5xl mx-auto bg-cyan-600  grid-cols-3 text-white">
                     <div className="py-5">
                         <div className="p-3 flex border-r-white border-r-2 flex-col items-center w-full">
                             <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" /><path fillRule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clipRule="evenodd" /></svg>
@@ -259,7 +259,7 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-                <div className="mt-10 container text-white mx-auto overflow-hidden w-full">
+                <div className="py-10 bg-slate-100 container text-white mx-auto overflow-hidden w-full">
                     <Swiper autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
@@ -406,8 +406,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full">
-                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl text-center bg-white">
+                <div className="w-full bg-slate-100 py-10">
+                    <div className="container max-w-6xl mx-auto shadow-xl  p-10 lg:text-5xl text-3xl text-center bg-white">
                         Before and After Pictures
                         <div className="grid mt-7 md:grid-cols-2 lg:grid-cols-4 gap-3">
                             <img src="img/result1.jpg" alt="" />
@@ -417,8 +417,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full">
-                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl text-center bg-white">
+                <div className="w-full  py-10">
+                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl  text-center ">
                         Dental Services
                         <Swiper
                             slidesPerView={3}
@@ -498,6 +498,112 @@ export default function Home() {
                                 </p>
                             </SwiperSlide>
                         </Swiper>
+                    </div>
+                </div>
+                <div className="bg-slate-50 py-10">
+                    <div className="grid max-w-6xl mx-auto lg:grid-cols-2">
+                        <div>
+                            <div class="block p-6 rounded-lg max-w-sm bg-slate-50 ">
+                                <form>
+                                    <div class="form-group  mb-6">
+                                        <p className="text-2xl mb-5 text-center">
+                                            Send a Message
+                                        </p>
+                                        <input type="text" class="form-control block
+                                        w-full
+                                        px-3
+                                        py-1.5
+                                        text-base
+                                        font-normal
+                                        text-gray-700
+                                        bg-white bg-clip-padding
+                                        border border-solid border-gray-300
+                                        rounded
+                                        transition
+                                        ease-in-out
+                                        m-0
+                                        focus:text-gray-700 focus:bg-white focus:border-cyan-600 focus:outline-none" id="exampleInput7"
+                                            placeholder="Name" />
+                                    </div>
+                                    <div class="form-group mb-6">
+                                        <input type="email" class="form-control block
+                                        w-full
+                                        px-3
+                                        py-1.5
+                                        text-base
+                                        font-normal
+                                        text-gray-700
+                                        bg-white bg-clip-padding
+                                        border border-solid border-gray-300
+                                        rounded
+                                        transition
+                                        ease-in-out
+                                        m-0
+                                        focus:text-gray-700 focus:bg-white focus:border-cyan-600 focus:outline-none" id="exampleInput8"
+                                            placeholder="Email address" />
+                                    </div>
+                                    <div class="form-group mb-6">
+                                        <textarea
+                                            class="
+                                            form-control
+                                            block
+                                            w-full
+                                            px-3
+                                            py-1.5
+                                            text-base
+                                            font-normal
+                                            text-gray-700
+                                            bg-white bg-clip-padding
+                                            border border-solid border-gray-300
+                                            rounded
+                                            transition
+                                            ease-in-out
+                                            m-0
+                                            focus:text-gray-700 focus:bg-white focus:border-cyan-600 focus:outline-none"
+                                            id="exampleFormControlTextarea13"
+                                            rows="3"
+                                            placeholder="Message"
+                                        ></textarea>
+                                    </div>
+
+                                    <button type="submit" class="
+                                    w-full
+                                    px-6
+                                    py-2.5
+                                    bg-cyan-600
+                                    text-white
+                                    font-medium
+                                    text-xs
+                                    leading-tight
+                                    uppercase
+                                    shadow-md
+                                    hover:bg-cyan-700 hover:shadow-lg
+                                    focus:bg-cyan-700 focus:shadow-lg focus:outline-none focus:ring-0
+                                    active:bg-cyan-800 active:shadow-lg
+                                    transition
+                                    duration-150
+                                    ease-in-out">
+                                        Send</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div className="px-10 flex flex-col justify-center items-end">
+                            <div className="text-2xl text-right">
+                                Call us
+                            </div>
+                            <div className="flex items-center mt-5 justify-end">
+                                <svg className="w-10 h-10 rounded-full bg-cyan-500 p-2 text-white mx-4 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                                <img className="w-10 h-10" src="img/whatsapp.png" alt="" />
+                                <svg className="w-10 h-10 rounded-full bg-cyan-500 p-2 text-white ml-4 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
+                            </div>
+                            <div className="text-right mt-5">
+                                Central Riyadh
+                                <br />
+                                Eastern Ring Road
+                                <br /> between Exit 10 and 11
+                                <br /> Al-Quds District
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
