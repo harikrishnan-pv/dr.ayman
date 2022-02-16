@@ -29,7 +29,7 @@ export default function Home() {
             <div className="h-screen">
                 <div className="max-w-6xl mx-auto justify-items-center content-center h-4/6  grid grid-cols-2 lg:grid-cols-4">
                     <div className="col-span-3 hidden lg:block"></div>
-                    <div className="bg-white p-2 pt-5 mt-10 text-center">
+                    <div className="bg-white p-2 hidden md:block pt-5 mt-10 text-center">
                         <p>Get a Diagnosis in minutes</p>
                         <div class="block p-6 rounded-lg  bg-white max-w-md">
                             <form>
@@ -108,7 +108,7 @@ export default function Home() {
                                     transition
                                     duration-150
                                     ease-in-out">
-                                    Send</button>
+                                    Free Medical Advice</button>
                             </form>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ export default function Home() {
                         <div>
 
                         </div>
-                        <div className="bg-cyan-600 flex flex-col justify-center p-10 text-right text-white">
+                        <div className="bg-cyan-600 hidden md:flex flex-col justify-center p-10 text-right text-white">
                             <p className="text-3xl font-bold">
                                 Dr. Ayman Mokdad
                             </p>
@@ -131,10 +131,102 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-5xl z-10 p-10 mx-auto">
+                <div className="max-w-5xl flex justify-center md:block z-10 p-10 pb-7 mx-auto">
                     <img src="/img/royal.png" alt="" />
                 </div>
-                <div className="mt-10 font-thin  border-t-white max-w-5xl mx-auto bg-cyan-600 grid grid-cols-3 text-white">
+                <div className="bg-white p-2  md:hidden  text-center">
+                    <p className="text-3xl font-bold">
+                        Dr. Ayman Mokdad
+                    </p>
+                    <p className="text-2xl">
+                        Clinic White Jah Dental Center
+                    </p>
+                    <p className="text-xl mb-7">
+                        Orthodontic and Maxillofacial
+                    </p>
+                    <p>Get a Diagnosis in minutes</p>
+                    <div class="block p-6 rounded-lg  bg-white max-w-md">
+                        <form>
+                            <div class="form-group mb-6">
+                                <input type="text" class="form-control block
+                                        w-full
+                                        px-3
+                                        py-1.5
+                                        text-base
+                                        font-normal
+                                        text-gray-700
+                                        bg-white bg-clip-padding
+                                        border border-solid border-gray-300
+                                        rounded
+                                        transition
+                                        ease-in-out
+                                        m-0
+                                        focus:text-gray-700 focus:bg-white focus:border-cyan-600 focus:outline-none" id="exampleInput7"
+                                    placeholder="Name" />
+                            </div>
+                            <div class="form-group mb-6">
+                                <input type="email" class="form-control block
+                                        w-full
+                                        px-3
+                                        py-1.5
+                                        text-base
+                                        font-normal
+                                        text-gray-700
+                                        bg-white bg-clip-padding
+                                        border border-solid border-gray-300
+                                        rounded
+                                        transition
+                                        ease-in-out
+                                        m-0
+                                        focus:text-gray-700 focus:bg-white focus:border-cyan-600 focus:outline-none" id="exampleInput8"
+                                    placeholder="Email address" />
+                            </div>
+                            <div class="form-group mb-6">
+                                <textarea
+                                    class="
+                                            form-control
+                                            block
+                                            w-full
+                                            px-3
+                                            py-1.5
+                                            text-base
+                                            font-normal
+                                            text-gray-700
+                                            bg-white bg-clip-padding
+                                            border border-solid border-gray-300
+                                            rounded
+                                            transition
+                                            ease-in-out
+                                            m-0
+                                            focus:text-gray-700 focus:bg-white focus:border-cyan-600 focus:outline-none"
+                                    id="exampleFormControlTextarea13"
+                                    rows="3"
+                                    placeholder="Message"
+                                ></textarea>
+                            </div>
+
+                            <button type="submit" class="
+                                    w-full
+                                    px-6
+                                    py-2.5
+                                    bg-cyan-600
+                                    text-white
+                                    font-medium
+                                    text-xs
+                                    leading-tight
+                                    uppercase
+                                    shadow-md
+                                    hover:bg-cyan-700 hover:shadow-lg
+                                    focus:bg-cyan-700 focus:shadow-lg focus:outline-none focus:ring-0
+                                    active:bg-cyan-800 active:shadow-lg
+                                    transition
+                                    duration-150
+                                    ease-in-out">
+                                Free Medical Advice</button>
+                        </form>
+                    </div>
+                </div>
+                <div className="mt-10 font-thin hidden md:grid border-t-white max-w-5xl mx-auto bg-cyan-600  grid-cols-3 text-white">
                     <div className="py-5">
                         <div className="p-3 flex border-r-white border-r-2 flex-col items-center w-full">
                             <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" /><path fillRule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clipRule="evenodd" /></svg>
@@ -177,13 +269,13 @@ export default function Home() {
                         }}
                         modules={[Autoplay, Pagination]} className="mySwiper bg-cyan-600 mx-auto max-w-5xl">
                         <SwiperSlide>
-                            <div className="grid grid-cols-2">
+                            <div className="grid md:grid-cols-2">
                                 <div className="banner h-96"></div>
                                 <div className="p-10 flex flex-col justify-center">
                                     <h1 className="text-3xl mb-5 font-bold">
                                         Dr. Ayman Mokdad
                                     </h1>
-                                    <ul className="list-disc">
+                                    <ul className="list-disc text-sm lg:text-base">
                                         <li>
                                             2017
 
@@ -220,13 +312,13 @@ export default function Home() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="grid grid-cols-2">
+                            <div className="grid md:grid-cols-2">
                                 <div className="banner h-96"></div>
                                 <div className="p-10 flex flex-col justify-center">
                                     <h1 className="text-3xl mb-5 font-bold">
                                         Dr. Ayman Mokdad
                                     </h1>
-                                    <ul className="list-disc">
+                                    <ul className="list-disc text-sm lg:text-base ">
                                         <li>
                                             2017
 
@@ -266,59 +358,58 @@ export default function Home() {
                     </Swiper>
                 </div>
 
-                <div className="h-screen text-6xl font-bold text-center">
-                    <div className="pt-40 pb-20">
+                <div className=" lg:text-6xl text-3xl lg:pb-20 font-bold text-center">
+                    <div className="lg:py-40 py-10">
                         Visitors Opinion
                     </div>
-                    <div className="grid grid-cols-2 max-w-5xl mx-auto">
+                    <div className="grid md:grid-cols-2 max-w-5xl mx-auto">
                         <div className="h-72 p-5 bg-cyan-600 "><iframe className="w-full h-full" src="https://www.youtube.com/embed/B2rJ603fTDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                         <div className="h-72 bg-cyan-600 p-5 ">
                             <iframe className="w-full h-full" src="https://www.youtube.com/embed/B2rJ603fTDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div className="pt-20 mt-10 text-5xl bg-yellow-600 text-white pb-20">
-                        <div className="font-mono">
-                            Monthly Cases
+                </div>
+                <div className="pt-20 text-center mt-10 text-3xl lg:text-5xl bg-yellow-600 text-white pb-20">
+                    <div className="font-mono">
+                        Monthly Cases
+                    </div>
+                    <div className="grid mt-10 h-full md:grid-cols-3 lg:grid-cols-5">
+                        <div className="p-3">
+                            25
+                            <p className="text-lg pt-5 font-normal">
+                                E-Max Formulas
+                            </p>
                         </div>
-                        <div className="grid mt-10 h-full grid-cols-5">
-                            <div className="p-3">
-                                25
-                                <p className="text-lg pt-5 font-normal">
-                                    E-Max Formulas
-                                </p>
-                            </div>
-                            <div className="p-3">
-                                35
-                                <p className="text-lg pt-5 font-normal">
-                                    Metal Transplant
-                                </p>
-                            </div>
-                            <div className="p-3">
-                                100
-                                <p className="text-lg pt-5 font-normal">
-                                    Laser Whitening
-                                </p>
-                            </div>
-                            <div className="p-3">
-                                55
-                                <p className="text-lg pt-5 font-normal">
-                                    Hollywood Smile
-                                </p>
-                            </div>
-                            <div className="p-3">
-                                60
-                                <p className="text-lg pt-5 font-normal">
-                                    Tooth Implant
-                                </p>
-                            </div>
+                        <div className="p-3">
+                            35
+                            <p className="text-lg pt-5 font-normal">
+                                Metal Transplant
+                            </p>
+                        </div>
+                        <div className="p-3">
+                            100
+                            <p className="text-lg pt-5 font-normal">
+                                Laser Whitening
+                            </p>
+                        </div>
+                        <div className="p-3">
+                            55
+                            <p className="text-lg pt-5 font-normal">
+                                Hollywood Smile
+                            </p>
+                        </div>
+                        <div className="p-3">
+                            60
+                            <p className="text-lg pt-5 font-normal">
+                                Tooth Implant
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div className="h-3/6"></div>
                 <div className="w-full">
-                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 text-5xl text-center bg-white">
+                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl text-center bg-white">
                         Before and After Pictures
-                        <div className="grid mt-7 grid-cols-4">
+                        <div className="grid mt-7 md:grid-cols-2 lg:grid-cols-4 gap-3">
                             <img src="img/result1.jpg" alt="" />
                             <img src="img/result2.jpg" alt="" />
                             <img src="img/result3.jpg" alt="" />
@@ -327,7 +418,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="w-full">
-                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 text-5xl text-center bg-white">
+                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl text-center bg-white">
                         Dental Services
                         <Swiper
                             slidesPerView={3}
@@ -335,10 +426,24 @@ export default function Home() {
                             pagination={{
                                 clickable: true,
                             }}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1,
+                                    spaceBetween: 20,
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 30,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
+                                },
+                            }}
                             modules={[Pagination]}
                             className="text-lg mt-7">
                             <SwiperSlide className="shadow-xl p-4">
-                                
+
                                 <div className="text-xl text-cyan-500 font-bold">
                                     Calendar with the usual metal brackets
                                 </div>
@@ -349,7 +454,7 @@ export default function Home() {
                                 </p>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl p-4">
-                                
+
                                 <div className="text-xl text-cyan-500 font-bold">
                                     Calendar with the usual metal brackets
                                 </div>
@@ -360,7 +465,7 @@ export default function Home() {
                                 </p>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl p-4">
-                                
+
                                 <div className="text-xl text-cyan-500 font-bold">
                                     Calendar with the usual metal brackets
                                 </div>
@@ -371,7 +476,7 @@ export default function Home() {
                                 </p>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl p-4">
-                                
+
                                 <div className="text-xl text-cyan-500 font-bold">
                                     Calendar with the usual metal brackets
                                 </div>
@@ -382,7 +487,7 @@ export default function Home() {
                                 </p>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl p-4">
-                                
+
                                 <div className="text-xl text-cyan-500 font-bold">
                                     Calendar with the usual metal brackets
                                 </div>
