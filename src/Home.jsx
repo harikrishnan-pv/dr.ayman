@@ -503,7 +503,7 @@ export default function Home() {
                 <div className="bg-slate-50 py-10">
                     <div className="grid max-w-6xl mx-auto lg:grid-cols-2">
                         <div>
-                            <div class="block p-6 rounded-lg max-w-sm bg-slate-50 ">
+                            <div class="block p-6 rounded-lg mx-auto max-w-sm bg-slate-50 ">
                                 <form>
                                     <div class="form-group  mb-6">
                                         <p className="text-2xl mb-5 text-center">
