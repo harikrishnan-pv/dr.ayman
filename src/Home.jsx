@@ -24,7 +24,9 @@ export default function Home() {
                     <svg className="w-10 h-10 rounded-full bg-cyan-500 p-2 text-white mx-4 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg>
                 </div>
             </nav>
-            <div className="banner -z-10 absolute w-full h-full">
+            <div className="banner -z-10 hidden md:block absolute w-full h-full">
+                </div>
+            <div className="bannerm md:hidden -z-10 absolute w-full h-5/6">
             </div>
             <div className="h-screen">
                 <div className="max-w-6xl mx-auto justify-items-center content-center h-4/6  grid grid-cols-2 lg:grid-cols-4">
@@ -145,7 +147,7 @@ export default function Home() {
                         Orthodontic and Maxillofacial
                     </p>
                     <p>Get a Diagnosis in minutes</p>
-                    <div class="block p-6 rounded-lg  bg-white max-w-md">
+                    <div class="block p-6 rounded-lg mx-auto bg-white max-w-md">
                         <form>
                             <div class="form-group mb-6">
                                 <input type="text" class="form-control block
@@ -501,7 +503,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="bg-slate-50 py-10">
-                    <div className="grid max-w-6xl mx-auto lg:grid-cols-2">
+                    <div className="grid max-w-6xl mx-auto md:grid-cols-2">
                         <div>
                             <div class="block p-6 rounded-lg mx-auto max-w-sm bg-slate-50 ">
                                 <form>
