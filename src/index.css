@@ -10,3 +10,6 @@
   background: url(./img/mainm.jpg);
   background-size: cover;
 }
+.arabic{
+  direction: rtl;
+}
