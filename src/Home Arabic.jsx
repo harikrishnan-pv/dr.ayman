@@ -419,7 +419,7 @@ export default function Arabic() {
                             modules={[Pagination]}
                             className="text-lg mt-4 m-5">
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         التقويم بالحاصرات المعدنية المعتادة                                     </div>
                                     <p className="text-justify pt-4">
@@ -427,7 +427,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         التقويم اللساني الداخلي                                    </div>
                                     <p className="text-justify pt-4">
@@ -437,7 +437,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         طب الأسنان التجميلي
                                     </div>
@@ -447,7 +447,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         التقويم بالحاصرات ذاتية الربط (المعروف بالدامون بريسز)
                                     </div>
@@ -457,7 +457,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         التقويم بالحاصرات الشفافة الكريستالية
                                     </div>
@@ -467,7 +467,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         تقويم القوالب الشفافة (الانفزلاين)
                                     </div>
@@ -477,7 +477,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         التقويم بالأجهزة المتحركة لتصحيح مشاكل الفكين الهيكلية عند الأطفال
                                     </div>
@@ -487,7 +487,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         التقويم بالحاصرات الذهبية و حاصرات الروديوم
                                     </div>
@@ -500,7 +500,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         المثبتات مابعد التقويم المتحركة
                                     </div>
@@ -510,7 +510,7 @@ export default function Arabic() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-80 flex flex-col justify-center ">
+                                <div className="h-96 flex flex-col justify-center ">
                                     <div className="text-xl text-cyan-500 font-bold">
                                         المثبتات الداخلية الثابتة :
                                     </div>
