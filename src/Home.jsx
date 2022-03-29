@@ -392,80 +392,41 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="w-full  py-10">
-                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl  text-center ">
-                        Dental Services
-                        <Swiper
-                            slidesPerView={3}
-                            spaceBetween={200}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            breakpoints={{
-                                0: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 20,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 30,
-                                },
-                                1024: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 30,
-                                },
-                            }}
-                            modules={[Pagination]}
-                            className="text-lg aspect-square md:aspect-auto mt-4 m-5">
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s1">
+                    <div className="container mx-auto w-max shadow-xl m-5 p-10 lg:text-5xl text-3xl  text-center ">
+                        DENTAL SERVICES
+                        <div className="grid max-w-7xl mt-10 px-10 mx-auto lg:grid-cols-3 gap-6">
+                            <div className="md:h-96 h-60 aspect-square s1">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s2">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s2">
 
-                                </div>
-                            </SwiperSlide>
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s3">
 
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s3">
+                            </div>
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s4">
+                            <div className="md:h-96 h-60 aspect-square s4">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s5">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s5">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s6">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s6">
 
-                                </div>
-                            </SwiperSlide>
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s7">
 
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s7">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s8">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s8">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s9">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s9">
-
-                                </div>
-                            </SwiperSlide>
-                        </Swiper>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div className="bg-slate-50 py-10">
                     <div className="grid max-w-6xl mx-auto">
 

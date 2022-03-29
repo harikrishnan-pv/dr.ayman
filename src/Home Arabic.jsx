@@ -396,78 +396,38 @@ export default function Arabic() {
                     </div>
                 </div>
                 <div className="w-full  py-10">
-                    <div className="container max-w-6xl mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl  text-center ">
+                    <div className="container w-max mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl  text-center ">
                         خدمات طب الأسنان
-                        <Swiper
-                            slidesPerView={3}
-                            spaceBetween={200}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            breakpoints={{
-                                0: {
-                                    slidesPerView: 1,
-                                    spaceBetween: 20,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 30,
-                                },
-                                1024: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 30,
-                                },
-                            }}
-                            modules={[Pagination]}
-                            className="text-lg mt-4 m-5">
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s1a">
+                        <div className="grid max-w-7xl mt-10 px-10 mx-auto lg:grid-cols-3 gap-6">
+                            <div className="md:h-96 h-60 aspect-square s1a">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s2a">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s2a">
 
-                                </div>
-                            </SwiperSlide>
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s3a">
 
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s3a">
+                            </div>
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s4a">
+                            <div className="md:h-96 h-60 aspect-square s4a">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s5a">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s5a">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s6a">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s6a">
 
-                                </div>
-                            </SwiperSlide>
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s7a">
 
-                            <SwiperSlide className="shadow-xl  my-10">
-                                <div className="md:h-96 h-60 aspect-square s7a">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s8a">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s8a">
+                            </div>
+                            <div className="md:h-96 h-60 aspect-square s9a">
 
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 ">
-                                <div className="md:h-96 h-60 aspect-square s9a">
-
-                                </div>
-                            </SwiperSlide>
-                        </Swiper>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="bg-slate-50 py-10">
