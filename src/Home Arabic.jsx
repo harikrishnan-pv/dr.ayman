@@ -264,12 +264,13 @@ export default function Arabic() {
                         modules={[Autoplay, Pagination]} className="mySwiper bg-cyan-600 mx-auto max-w-5xl">
                         <SwiperSlide>
                             <div className="grid md:grid-cols-2">
-                                <div className="banner h-96"></div>
+                                <div className="banners "></div>
+
                                 <div className="p-10 flex flex-col justify-center">
                                     <h1 className="text-3xl mb-5 font-bold">
                                         الشهادات
                                     </h1>
-                                    <ul className="list-disc py-10 text-sm lg:text-base">
+                                    <ul className="list-disc py-16 text-sm lg:text-base">
                                         <li>
                                             شهادة مقدم لتقنية الانفزلاين للتقويم الشفاف invisalign  ، الرياض 2017
                                         </li>
@@ -300,7 +301,8 @@ export default function Arabic() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="grid md:grid-cols-2">
-                                <div className="banner h-96"></div>
+                                <div className="banners "></div>
+
                                 <div className="p-10 flex flex-col justify-center">
                                     <h1 className="text-3xl mb-5 font-bold">
                                         المؤهلات
@@ -398,7 +400,7 @@ export default function Arabic() {
                         خدمات طب الأسنان
                         <Swiper
                             slidesPerView={3}
-                            spaceBetween={30}
+                            spaceBetween={200}
                             pagination={{
                                 clickable: true,
                             }}
@@ -418,108 +420,53 @@ export default function Arabic() {
                             }}
                             modules={[Pagination]}
                             className="text-lg mt-4 m-5">
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        التقويم بالحاصرات المعدنية المعتادة                                     </div>
-                                    <p className="text-justify pt-4">
-                                        مايجعلها غير اعتيادية في عيادتنا استخدامنا للحاصرات الجميلة شكلا و الملساء مظهرا لتخفيف الازعاج للحد الأدنى والمقدمة من أرقى الشركات العالمية                                     </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        التقويم اللساني الداخلي                                    </div>
-                                    <p className="text-justify pt-4">
-                                        قدم تقنية الهارموني سمايل للتقويم اللساني الداخلي من شركة أمريكان أورثودونتك، حيث يتم تصميم وصناعة الحاصرات والأسلاك خصيصا لحالة أسنانك في معامل الشركة الأم
-                                        نقدم هذه المعالجة الراقية لمن يبحث عن التفرد والتميز في عالم التقويم اللامرئي.
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        طب الأسنان التجميلي
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        يهتم فريق طب الأسنان التجميلي لدينا في عيادة الدكتور ابراهيم النزال بشكل خاص بطب الأسنان التجميلي. إيمانا منا بالحصول على أسنان جميلة ذات مظهر طبيعي مصمم بشكل فريد لكل مريض بأحدث الأجهزة
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        التقويم بالحاصرات ذاتية الربط (المعروف بالدامون بريسز)
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        إذا كنت ممن يبحثون عن السرعة والراحة في المعالجة التقويمية ، فهذا خيارك الأمثل، إذ الازعاج الأقل ، واختصار مالايقل عن 20% من زمن المعالجة وذلك بتطبيق القوى التقويمية الخفيفة والمستمرة.
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        التقويم بالحاصرات الشفافة الكريستالية
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        لمن يرغبون بتقويم شفاف وتجميلي مقارنة مع التقويم المعدني، وبتكلفة مادية أقل من تقويم القوالب الشفافة (الانفزلاين)، يكون خيار البريسز الكريستالية الشفافة خيارا جميلا و أنيقا جدا ، خصوصا في المناسبات الاجتماعية الهامة
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        تقويم القوالب الشفافة (الانفزلاين)
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        تقدم شركة انفزلاين الأمريكية تقنيتها بواسطة قوالب شفافة تماما قابلة للفك والتركيب ذات الراحة الكبيرة والسهولة التامة أثناء الاستخدام بدون استخدام أسلاك أو حاصرات على الأسنان
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        التقويم بالأجهزة المتحركة لتصحيح مشاكل الفكين الهيكلية عند الأطفال
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        في حالات تقدم الفك العلوي ، أو تقدم الفك السفلي مثلا ، فإن البدء بمعالجة هذه التشوهات في هذه الأعمار المبكرة وبالأجهزة المتحركة يصحح المشكلة من جذرها ويوفر الحاجة لاجراء جراحة فكية أو قلع الأسنان لاحقا
-                                    </p>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        التقويم بالحاصرات الذهبية و حاصرات الروديوم
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        لعشاق الفخامة والتميز ، يمكنكم التفكير بالتقويم الذهبي حيث تكون البريسز والاسلاك مطلية بالذهب
-                                        ستحصل على معالجة متفردة بكل معنى الكلمة ، وباستخدام التقويم الذهبي ستتمتع أيضا بمزايا الذهب الخامل كيميائيا والمتقبل حيويا من أنسجة الفم والأسنان أكثر من باقي أنواع المعادن
-                                        أما حاصرات الروديوم فلها مظهر أقل ذهبية ولكن أكثر جمالا من التقويم المعدني وتعتبر من أحدث صيحات تقويم الأسنان عالميا
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s1a">
 
-                                    </p>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        المثبتات مابعد التقويم المتحركة
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        نقدم المثبتات مابعد التقويم المتحركة بأنواعها ، الشفافة و الاكريلية مع الأسلاك المعدنية ، وبسماكات مختلفة حسب الحالة مع المتابعة كل 6 أشهر.
-                                    </p>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s2a">
+
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        المثبتات الداخلية الثابتة :
-                                    </div>
-                                    <p className="text-justify pt-4">
-                                        والمصنوعة من أسلاك التوست الفلكس الخاصة بهذه المثبتات، وبقياسات مختلفة ، نقدم هذه المثبتات مصنوعة على أمثلة جبسية مخبرية وليس مباشرة على الفم لتكون أكثر دقة وانطباقا، ونتشرف بمتابعتها كل 6 أشهر مع التنظيف إن دعت الحاجة لذلك.
-                                    </p>
+
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s3a">
+
                                 </div>
                             </SwiperSlide>
-                           
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s4a">
+
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s5a">
+
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s6a">
+
+                                </div>
+                            </SwiperSlide>
+
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s7a">
+
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s8a">
+
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s9a">
+
+                                </div>
+                            </SwiperSlide>
                         </Swiper>
                     </div>
                 </div>

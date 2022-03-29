@@ -13,3 +13,83 @@
 .arabic{
   direction: rtl;
 }
+.banners{
+  background: url(./img/mains.jpg);
+  background-size: cover;
+}
+
+.s1{
+  background: url(./img/s1.jpeg);
+  background-size: cover;
+}
+.s2{
+  background: url(./img/s2.jpeg);
+  background-size: cover;
+}
+.s3{
+  background: url(./img/s3.jpeg);
+  background-size: cover;
+}
+.s4{
+  background: url(./img/s4.jpeg);
+  background-size: cover;
+}
+.s5{
+  background: url(./img/s5.jpeg);
+  background-size: cover;
+}
+.s6{
+  background: url(./img/s6.jpeg);
+  background-size: cover;
+}
+.s7{
+  background: url(./img/s7.jpeg);
+  background-size: cover;
+}
+.s8{
+  background: url(./img/s8.jpeg);
+  background-size: cover;
+}
+.s9{
+  background: url(./img/s9.jpeg);
+  background-size: cover;
+}
+
+
+
+.s1a{
+  background: url(./img/s1a.jpeg);
+  background-size: cover;
+}
+.s2a{
+  background: url(./img/s2a.jpeg);
+  background-size: cover;
+}
+.s3a{
+  background: url(./img/s3a.jpeg);
+  background-size: cover;
+}
+.s4a{
+  background: url(./img/s4a.jpeg);
+  background-size: cover;
+}
+.s5a{
+  background: url(./img/s5a.jpeg);
+  background-size: cover;
+}
+.s6a{
+  background: url(./img/s6a.jpeg);
+  background-size: cover;
+}
+.s7a{
+  background: url(./img/s7a.jpeg);
+  background-size: cover;
+}
+.s8a{
+  background: url(./img/s8a.jpeg);
+  background-size: cover;
+}
+.s9a{
+  background: url(./img/s9a.jpeg);
+  background-size: cover;
+}

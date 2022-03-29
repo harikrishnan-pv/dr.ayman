@@ -151,7 +151,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="max-w-5xl flex justify-center md:block z-10 p-10 pb-7 mx-auto">
+                <div className="max-w-5xl flex mt-10 justify-center md:block z-10 p-10 pb-7 mx-auto">
                     <img src="/img/royal.png" alt="" />
                 </div>
                 <div className="bg-white p-2  md:hidden  text-center">
@@ -249,7 +249,7 @@ export default function Home() {
                 <div className="md:my-10 font-thin hidden md:grid border-t-white  max-w-5xl mx-auto bg-cyan-600  grid-cols-3 text-white">
 
                 </div>
-                <div className="py-10 bg-slate-100 mt-20 container text-white mx-auto overflow-hidden w-full">
+                <div className="py-10 bg-slate-100 mt-20  container text-white mx-auto overflow-hidden w-full">
                     <Swiper autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
@@ -259,13 +259,13 @@ export default function Home() {
                         }}
                         modules={[Autoplay, Pagination]} className="mySwiper bg-cyan-600 mx-auto max-w-5xl">
                         <SwiperSlide>
-                            <div className="grid md:grid-cols-2">
-                                <div className="banner h-96"></div>
+                            <div className="grid content-center md:grid-cols-2">
+                                <div className="banners"></div>
                                 <div className="p-10 flex flex-col justify-center">
                                     <h1 className="text-3xl mb-5 font-bold">
                                         Certification
                                     </h1>
-                                    <ul className="list-disc py-10 text-sm lg:text-base">
+                                    <ul className="list-disc py-16 text-sm lg:text-base">
                                         <li>
                                             Presenter Certificate for Invisalign Technology, Riyadh 2017
                                         </li>
@@ -295,7 +295,10 @@ export default function Home() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="grid md:grid-cols-2">
-                                <div className="banner h-96"></div>
+                                <div className="banners">
+
+                                </div>
+
                                 <div className="p-10 flex flex-col justify-center">
                                     <h1 className="text-3xl mb-5 font-bold">
                                         Qualification
@@ -393,7 +396,7 @@ export default function Home() {
                         Dental Services
                         <Swiper
                             slidesPerView={3}
-                            spaceBetween={30}
+                            spaceBetween={200}
                             pagination={{
                                 clickable: true,
                             }}
@@ -412,90 +415,51 @@ export default function Home() {
                                 },
                             }}
                             modules={[Pagination]}
-                            className="text-lg mt-4 m-5">
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        We offer the Harmony Smile technology for internal lingual orthodontics from American Orthodontics, where brackets and wires are designed and manufactured specifically for the condition of your teeth in the laboratories of the parent company                                    </div>
+                            className="text-lg aspect-square md:aspect-auto mt-4 m-5">
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s1">
 
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        We offer this sophisticated treatment for those looking for exclusivity and distinction in the world of invisible orthodontics.   Braces with self-ligating brackets (also known as Damon Braces)
-                                    </div>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s2">
 
                                 </div>
                             </SwiperSlide>
 
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        If you are looking for speed and comfort in orthodontic treatment, this is your best choice, as it has the least inconvenience, and shortens no less than 20% of the treatment time by applying light and continuous orthodontic forces.
-                                    </div>
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s3">
 
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        Calendar with crystal clear brackets
-                                    </div>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s4">
 
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        For those who want a transparent and cosmetic calendar compared to the metal calendar, and at a lower material cost than the transparent (Invisalign) calendar, the transparent crystal braces option is a very beautiful and elegant choice, especially in important social occasions.   Calendar with gold brackets and rhodium brackets                                                                        </div>
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s5">
 
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        For lovers of luxury and distinction, you can think of the golden calendar, where the bracelets and wires are plated with gold                                                                        </div>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s6">
 
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        You will get a unique treatment in every sense of the word, and by using golden braces, you will also enjoy the advantages of chemically inert and bio-acceptable gold from the tissues of the mouth and teeth more than other types of metals
-                                    </div>
+
+                            <SwiperSlide className="shadow-xl  my-10">
+                                <div className="md:h-96 h-60 aspect-square s7">
 
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        Rhodium brackets have a less golden appearance, but are more beautiful than metal braces and are considered one of the latest trends in orthodontics worldwide.
-                                    </div>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s8">
 
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        Animated post-calendar fixators
-                                    </div>
-
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        We offer all kinds of removable post-orthodontic fixators, transparent and acrylic with metal wires, and of different thicknesses according to the situation with follow-up every 6 months.     Fixed internal fixings:
-                                    </div>
-
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide className="shadow-xl my-10 p-4">
-                                <div className="h-96 flex flex-col justify-center ">
-                                    <div className="text-xl text-cyan-500 font-bold">
-                                        Made of toast-flex wires for these fixatives, and with different sizes, we offer these fixings made on laboratory plaster examples and not directly on the mouth to be more accurate and applicable, and we have the honor to follow them every 6 months with cleaning if necessary.
-                                    </div>
+                            <SwiperSlide className="shadow-xl my-10 ">
+                                <div className="md:h-96 h-60 aspect-square s9">
 
                                 </div>
                             </SwiperSlide>
