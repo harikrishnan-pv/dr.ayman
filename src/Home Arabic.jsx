@@ -384,7 +384,7 @@ export default function Arabic() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full bg-slate-100 py-10">
+                {/* <div className="w-full bg-slate-100 py-10">
                     <div className="container max-w-6xl mx-auto shadow-xl  p-10 lg:text-5xl text-3xl text-center bg-white">
                         قبل وبعد الصور
                         <div className="grid mt-7 md:grid-cols-2 lg:grid-cols-4 gap-3">
@@ -394,37 +394,37 @@ export default function Arabic() {
                             <img src="img/result4.jpg" alt="" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="w-full  py-10">
                     <div className="container w-max mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl  text-center ">
                         خدمات طب الأسنان
                         <div className="grid max-w-7xl mt-10 px-10 mx-auto lg:grid-cols-3 gap-6">
-                            <div className="md:h-96 h-60 aspect-square s1a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s1a">
 
                             </div>
-                            <div className="md:h-96 h-60 aspect-square s2a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s2a">
 
                             </div>
-                            <div className="md:h-96 h-60 aspect-square s3a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s3a">
 
                             </div>
 
-                            <div className="md:h-96 h-60 aspect-square s4a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s4a">
 
                             </div>
-                            <div className="md:h-96 h-60 aspect-square s5a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s5a">
 
                             </div>
-                            <div className="md:h-96 h-60 aspect-square s6a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s6a">
 
                             </div>
-                            <div className="md:h-96 h-60 aspect-square s7a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s7a">
 
                             </div>
-                            <div className="md:h-96 h-60 aspect-square s8a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s8a">
 
                             </div>
-                            <div className="md:h-96 h-60 aspect-square s9a">
+                            <div className="md:h-96 md:w-96 h-60 w-60  s9a">
 
                             </div>
                         </div>
