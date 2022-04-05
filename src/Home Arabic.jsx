@@ -412,43 +412,24 @@ export default function Arabic() {
                         </div>
                     </div>
                 </div> */}
-                <div className="w-full  py-10">
-                    <div className="container w-max mx-auto shadow-xl m-5 p-10 lg:text-5xl text-3xl  text-center ">
+                <div className="w-screen  py-10">
+                    <div className="container w-screen mx-auto shadow-xl lg:m-5 lg:p-10 lg:text-5xl text-3xl  text-center ">
                         خدمات طب الأسنان
-                        <div className="grid max-w-7xl mt-10 px-10 mx-auto lg:grid-cols-3 gap-6">
-                            <div className="md:h-96 md:w-96 h-60 w-60  s1a">
-
-                            </div>
-                            <div className="md:h-96 md:w-96 h-60 w-60  s2a">
-
-                            </div>
-                            <div className="md:h-96 md:w-96 h-60 w-60  s3a">
-
-                            </div>
-
-                            <div className="md:h-96 md:w-96 h-60 w-60  s4a">
-
-                            </div>
-                            <div className="md:h-96 md:w-96 h-60 w-60  s5a">
-
-                            </div>
-                            <div className="md:h-96 md:w-96 h-60 w-60  s6a">
-
-                            </div>
-                            <div className="md:h-96 md:w-96 h-60 w-60  s7a">
-
-                            </div>
-                            <div className="md:h-96 md:w-96 h-60 w-60  s8a">
-
-                            </div>
-                            <div className="md:h-96 md:w-96 h-60 w-60  s9a">
-
-                            </div>
+                        <div className="grid md:max-w-7xl mt-10 lg:px-10 mx-auto lg:grid-cols-3 gap-6">
+                            <img src="/img/s1a.jpeg" alt="" />
+                            <img src="/img/s2a.jpeg" alt="" />
+                            <img src="/img/s3a.jpeg" alt="" />
+                            <img src="/img/s4a.jpeg" alt="" />
+                            <img src="/img/s5a.jpeg" alt="" />
+                            <img src="/img/s6a.jpeg" alt="" />
+                            <img src="/img/s7a.jpeg" alt="" />
+                            <img src="/img/s8a.jpeg" alt="" />
+                            <img src="/img/s9a.jpeg" alt="" />
                         </div>
                     </div>
                 </div>
                 <div className="bg-slate-50 py-10">
-                    <div className="grid max-w-6xl mx-auto">
+                    <div className="grid lg:grid-cols-2 max-w-6xl mx-auto">
 
                         <div className="px-10 flex flex-col justify-center items-end">
                             <div className="text-2xl text-right">
@@ -482,6 +463,9 @@ export default function Arabic() {
                             <div className="text-right mt-5">
                                 مركز الجناح الأبيض الطبي للاسنان
                             </div>
+                        </div>
+                        <div className="mx-auto mt-5 md:mt-0">
+                            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.2574463403994!2d46.67352461499933!3d24.683675284137617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03495f0662d7%3A0x375131183d4c0e73!2z2YXYsdmD2LIg2KfZhNis2YbYp9itINin2YTYo9io2YrYtiDYp9mE2LfYqNmKINmE2YTYp9iz2YbYp9mG!5e0!3m2!1sen!2ssa!4v1649177114958!5m2!1sen!2ssa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
